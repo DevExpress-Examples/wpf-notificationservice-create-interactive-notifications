@@ -9,6 +9,18 @@
 # How to use NotificationService to create interactive notifications
 
 
-This example demonstrates how to use NotificationService to show notifications.
+NotificationService allows you to create and display feedback notifications introduced in Windows 10. Feedback notifications can be used to get a quick answer from a user. If the application has already been closed, the user can reopen it on the notification click.
 
+This example illustrates how to use NotificationService: [https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice). The service is implemented in three steps:
+
+1. Create ApplicationShortcut: [MainWindow.xaml.cs](./CS/InteractiveNotifications/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/InteractiveNotifications/MainWindow.xaml.vb)).
+2. Create ApplicationActivator and register COM-Server: [Activator.cs](./CS/InteractiveNotifications/Activator.cs) (VB: [Activator.vb](./VB/InteractiveNotifications/Activator.vb)).
+3. Set ApplicationName and ApplicationId: [MainWindow.xaml](./CS/InteractiveNotifications/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/InteractiveNotifications/MainWindow.xaml))
+
+We recommend running the sample without the Visual Studio debugger. The application shortcut will be created on the first application launch in the
+<em>"%APPDATA%\Microsoft\Windows\Start Menu\Programs"</em> directory. If you move or rename the application file, you will need to manually remove the old shortcut.
+
+**Important!**<br>Enable notifications in the Windows 10 settings before running the sample.
+
+When the sample application is running, click the Create notification button to invoke a popup feedback notification. You can click the notification in the Windows 10 Action Center to restart the sample application once the application is closed.
 <br/>
