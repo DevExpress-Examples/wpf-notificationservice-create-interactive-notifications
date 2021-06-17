@@ -11,7 +11,7 @@
 
 NotificationService allows you to create and display feedback notifications introduced in Windows 10. Feedback notifications can be used to get a quick answer from a user. If the application has already been closed, the user can reopen it on the notification click.
 
-This example illustrates how to use NotificationService: [https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice). The service is implemented in three steps:
+This example illustrates how to use [NotificationService](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice). The service is implemented in three steps:
 
 1. Create ApplicationShortcut: [MainWindow.xaml.cs](./CS/InteractiveNotifications/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/InteractiveNotifications/MainWindow.xaml.vb)).
 2. Create ApplicationActivator and register COM-Server: [Activator.cs](./CS/InteractiveNotifications/Activator.cs) (VB: [Activator.vb](./VB/InteractiveNotifications/Activator.vb)).
