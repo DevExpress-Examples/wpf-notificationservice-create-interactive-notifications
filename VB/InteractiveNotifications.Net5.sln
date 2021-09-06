@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InteractiveNotifications", "InteractiveNotifications\InteractiveNotifications.vbproj", "{ADA03DB9-0C86-4130-8A14-3EDC619969B4}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InteractiveNotifications", "InteractiveNotifications\InteractiveNotifications.Net5.vbproj", "{ADA03DB9-0C86-4130-8A14-3EDC619969B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
