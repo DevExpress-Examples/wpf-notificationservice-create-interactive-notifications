@@ -9,7 +9,7 @@ namespace InteractiveNotifications {
     public class CustomNotificationActivator : ToastNotificationActivator {
         public override void OnActivate(string arguments, Dictionary<string, string> data) {
             Application.Current.Dispatcher.Invoke(() => {
-                MainWindow.SendActivatorMessage();
+                MainWindow.SendActivatorMessage(arguments);
             });
         }
     }
