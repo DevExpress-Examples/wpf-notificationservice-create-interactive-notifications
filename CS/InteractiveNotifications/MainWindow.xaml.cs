@@ -7,8 +7,8 @@ namespace InteractiveNotifications {
             RegisterApplication();
             InitializeComponent();
         }
-        public static void SendActivatorMessage() {
-            MessageBox.Show("Activator has been invoked!");
+        public static void SendActivatorMessage(string arguments) {
+            MessageBox.Show("Activator invoked! Notification id = " + arguments);
         }
         public static string ApplicationID {
             get { return string.Format("InteractiveNotifications_{0}", AssemblyInfo.VersionShort.Replace(".", "_")); }
