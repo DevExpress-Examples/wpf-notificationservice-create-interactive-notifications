@@ -10,7 +10,8 @@ namespace InteractiveNotifications {
             string text1 = "Lorem ipsum dolor sit amet integer fringilla, dui eget ultrices cursus, justo tellus.";
             string text2 = "In ornare ante magna, eget volutpat mi bibendum a. Nam ut ullamcorper libero. Pellentesque habitant.";
             string text3 = "Quisque sapien odio, mollis tincidunt est id, fringilla euismod neque. Aenean adipiscing lorem dui, nec. ";
-            INotification notification = NotificationService.CreatePredefinedNotification(text1, text2, text3);
+            var id = DateTime.Now.Millisecond.ToString();
+            INotification notification = NotificationService.CreatePredefinedNotification(text1, text2, text3, null, id);
             Show(notification);
         }
 
