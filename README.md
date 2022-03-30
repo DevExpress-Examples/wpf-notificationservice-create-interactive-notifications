@@ -11,7 +11,7 @@
 * [MainViewModel.cs](./CS/InteractiveNotifications/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/InteractiveNotifications/MainViewModel.vb))
 * [Activator.cs](./CS/InteractiveNotifications/Activator.cs) (VB: [Activator.vb](./VB/InteractiveNotifications/Activator.vb))
 <!-- default file list end -->
-# How to use NotificationService to create interactive notifications
+# How To: Use NotificationService to Create Interactive Notifications
 
 
 NotificationService allows you to create and display feedback notifications introduced in Windows 10. Feedback notifications can be used to get a quick answer from a user. If the application has already been closed, the user can reopen it on the notification click.
