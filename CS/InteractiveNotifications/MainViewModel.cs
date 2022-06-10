@@ -5,13 +5,18 @@ using DevExpress.Mvvm;
 namespace InteractiveNotifications {
     public class MainViewModel {
         protected virtual INotificationService NotificationService => null;
+        public int PredefinedNotificationId { get; set; }
 
+        protected MainViewModel() {
+            PredefinedNotificationId = 100;
+        }
+        
         public void ShowNotification() {
             string text1 = "Lorem ipsum dolor sit amet integer fringilla, dui eget ultrices cursus, justo tellus.";
             string text2 = "In ornare ante magna, eget volutpat mi bibendum a. Nam ut ullamcorper libero. Pellentesque habitant.";
             string text3 = "Quisque sapien odio, mollis tincidunt est id, fringilla euismod neque. Aenean adipiscing lorem dui, nec. ";
-            var id = DateTime.Now.Millisecond.ToString();
-            INotification notification = NotificationService.CreatePredefinedNotification(text1, text2, text3, null, id);
+            INotification notification = NotificationService.CreatePredefinedNotification(text1, text2, text3, null, PredefinedNotificationId.ToString());
+            PredefinedNotificationId++;
             Show(notification);
         }
 
