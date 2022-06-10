@@ -12,12 +12,18 @@ Namespace InteractiveNotifications
             End Get
         End Property
 
+        Public Property PredefinedNotificationId As Integer
+
+        Protected Sub New()
+            PredefinedNotificationId = 100
+        End Sub
+
         Public Sub ShowNotification()
             Dim text1 As String = "Lorem ipsum dolor sit amet integer fringilla, dui eget ultrices cursus, justo tellus."
             Dim text2 As String = "In ornare ante magna, eget volutpat mi bibendum a. Nam ut ullamcorper libero. Pellentesque habitant."
             Dim text3 As String = "Quisque sapien odio, mollis tincidunt est id, fringilla euismod neque. Aenean adipiscing lorem dui, nec. "
-            Dim id = Date.Now.Millisecond.ToString()
-            Dim notification As INotification = NotificationService.CreatePredefinedNotification(text1, text2, text3, Nothing, id)
+            Dim notification As INotification = NotificationService.CreatePredefinedNotification(text1, text2, text3, Nothing, PredefinedNotificationId.ToString())
+            PredefinedNotificationId += 1
             Show(notification)
         End Sub
 
