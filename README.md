@@ -3,18 +3,14 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1007374)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [MainWindow.xaml](./CS/InteractiveNotifications/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/InteractiveNotifications/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/InteractiveNotifications/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/InteractiveNotifications/MainWindow.xaml.vb))
-* [MainViewModel.cs](./CS/InteractiveNotifications/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/InteractiveNotifications/MainViewModel.vb))
-* [Activator.cs](./CS/InteractiveNotifications/Activator.cs) (VB: [Activator.vb](./VB/InteractiveNotifications/Activator.vb))
-<!-- default file list end -->
-# How to use NotificationService to create interactive notifications
+# WPF NotificationService - Create Interactive Notifications
 
+[NotificationService](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice) allows you to create and display feedback notifications introduced in Windows 10. Feedback notifications can be used to get a quick answer from a user. If the application has already been closed, the user can reopen it on the notification click.
 
-NotificationService allows you to create and display feedback notifications introduced in Windows 10. Feedback notifications can be used to get a quick answer from a user. If the application has already been closed, the user can reopen it on the notification click.
+![image](https://user-images.githubusercontent.com/65009440/220361565-f0ace61e-f9e9-42d5-8411-744a519f319e.png)
+
+## Implementation Details
 
 This example illustrates how to use [NotificationService](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice):
 
@@ -31,4 +27,19 @@ We recommend running the sample without the Visual Studio debugger. The applicat
 **Important!**<br>Enable notifications in the Windows 10 settings before running the sample.
 
 When the sample application is running, click the Create notification button to invoke a popup feedback notification. You can click the notification in the Windows 10 Action Center to restart the sample application once the application is closed.
-<br/>
+
+## Files to Review
+
+* [MainWindow.xaml](./CS/InteractiveNotifications/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/InteractiveNotifications/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/InteractiveNotifications/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/InteractiveNotifications/MainWindow.xaml.vb))
+* [MainViewModel.cs](./CS/InteractiveNotifications/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/InteractiveNotifications/MainViewModel.vb))
+* [Activator.cs](./CS/InteractiveNotifications/Activator.cs) (VB: [Activator.vb](./VB/InteractiveNotifications/Activator.vb))
+
+## Documentation
+
+* [NotificationService](https://docs.devexpress.com/WPF/18138/mvvm-framework/services/predefined-set/notificationservice)
+* [UI Services](https://docs.devexpress.com/WPF/17414/mvvm-framework/services)
+
+## More Examples
+
+* [Display Notifications in MVVM Applications Using the NotificationService](https://github.com/DevExpress-Examples/wpf-display-notifications-using-the-notificationservice)
