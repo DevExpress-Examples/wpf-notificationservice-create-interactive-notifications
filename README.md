@@ -20,7 +20,7 @@ This example illustrates how to use [NotificationService](https://docs.devexpres
 3. Set ApplicationName and ApplicationId: [MainWindow.xaml](./CS/InteractiveNotifications/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/InteractiveNotifications/MainWindow.xaml)).
 4. Create a command that invokes the notification: [MainViewModel.cs](./CS/InteractiveNotifications/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/InteractiveNotifications/MainViewModel.vb)).
 
-   The [NotificationService.CreatePredefinedNotification](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.NotificationService.CreatePredefinedNotification(System.String-System.String-System.String-System.Windows.Media.ImageSource-System.String)?v=22.1) method allows you to specify the notification's id that could be used to identify the notification with wich the user interacts. NotificationActivator passes this id to the **OnActivate** method's **arguments** parameter.
+   The [NotificationService.CreatePredefinedNotification](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.NotificationService.CreatePredefinedNotification(System.String-System.String-System.String-System.Windows.Media.ImageSource-System.String)) method allows you to specify the notification's id that could be used to identify the notification with wich the user interacts. NotificationActivator passes this id to the **OnActivate** method's **arguments** parameter.
 
 We recommend running the sample without the Visual Studio debugger. The application shortcut will be created on the first application launch in the
 *"%APPDATA%\Microsoft\Windows\Start Menu\Programs"* directory. If you move or rename the application file, you will need to manually remove the old shortcut.
@@ -51,3 +51,4 @@ When the sample application is running, click the Create notification button to 
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
