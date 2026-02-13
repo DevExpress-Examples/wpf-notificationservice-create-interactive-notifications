@@ -45,7 +45,7 @@ When the sample application is running, click the Create notification button to 
 
 * [Display Notifications in MVVM Applications Using the NotificationService](https://github.com/DevExpress-Examples/wpf-display-notifications-using-the-notificationservice)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-notificationservice-create-interactive-notifications&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-notificationservice-create-interactive-notifications&~~~was_helpful=no)
 
