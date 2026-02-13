@@ -31,7 +31,7 @@ We recommend running the sample without the Visual Studio debugger. The applicat
 When the sample application is running, click the Create notification button to invoke a popup feedback notification. You can click the notification in the Windows 10 Action Center to restart the sample application once the application is closed.
 <br/>
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-notificationservice-create-interactive-notifications&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-notificationservice-create-interactive-notifications&~~~was_helpful=no)
 
